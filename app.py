@@ -1,11 +1,11 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ecobattle-backend.onrender.com"
 
 st.set_page_config(page_title="EcoBattle", page_icon="🌍", layout="centered")
 
-st.title("🌍 EcoBattle: Earth Defense System")
+st.title(" EcoBattle: Earth Defense System")
 
 # Initialize session state from backend if not present
 if "synced" not in st.session_state:
