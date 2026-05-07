@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+£
 API_URL = "https://ecobattle-backend.onrender.com"
 
 st.set_page_config(page_title="EcoBattle", page_icon="🌍", layout="centered")
